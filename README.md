@@ -4,8 +4,8 @@
 
 1. Clone the repository: `git clone https://github.com/tpareek18/CARE-ID.git` 
 2. Install the requirements via the terminal: `pip install -r requirements.txt`
-3. Run the following commands:
-     `python3 manage.py migrate`
+3. Run the following commands:\
+     `python3 manage.py migrate`\
      `python3 manage.py runserver`
 
 ## Usage instructions
