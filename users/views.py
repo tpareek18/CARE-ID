@@ -57,7 +57,7 @@ class UserGetByHashView(APIView):
                 {"detail": "User with the provided hash does not exist."},
                 status=status.HTTP_404_NOT_FOUND,
             )
-        serializer = self.get_serializer(user)
+        serializer = UserViewSerializer(user)
         return Response(
             serializer.data,
             status=status.HTTP_200_OK,
